@@ -1,10 +1,10 @@
-# landing-zhakypbekov
+# landing-anarbaeva
 
 **Тема:** Онлайн-школа английского языка SpeakUp.
-**Автор:** Сырым Жакыпбеков
+**Автор:** Akerke Anarbaeva
 
 ## 🔗 Live (GitHub Pages)
-https://anarbaevva.github.io/landing-zhakypbekov/
+https://akerkeanarbaeva2005-boop.github.io/landing-anarbaeva/
 
 ## Что сделано
 - Семантические теги: header, nav, main, section, article, footer.
