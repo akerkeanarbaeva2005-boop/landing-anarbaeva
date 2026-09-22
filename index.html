@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Онлайн-школа английского языка SpeakUp — индивидуальные и групповые занятия с носителями. Пробный урок бесплатно.">
+  <meta name="author" content="Сырым Жакыпбеков">
+  <title>SpeakUp — онлайн-школа английского языка</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo">SpeakUp</a>
+      <nav aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li><a href="#about">О школе</a></li>
+          <li><a href="#courses">Курсы</a></li>
+          <li><a href="#teachers">Преподаватели</a></li>
+          <li><a href="#contact">Записаться</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="hero" class="hero">
+      <div class="container">
+        <h1>Английский онлайн — легко и без стресса</h1>
+        <p>Индивидуальные и групповые занятия с преподавателями-носителями. Первый пробный урок — бесплатно.</p>
+        <a href="#contact" class="btn">Записаться на пробный урок</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>О школе SpeakUp</h2>
+        <article class="about-card">
+          <img src="https://picsum.photos/seed/english/400/400"
+               alt="Преподаватель английского языка проводит онлайн-урок" width="400" height="400">
+          <div>
+            <h3>Учим говорить, а не зубрить</h3>
+            <p>SpeakUp — онлайн-школа английского языка для взрослых и подростков. Мы делаем упор на разговорную практику с первого занятия.</p>
+            <p>Занятия проходят в Zoom в удобное время. Программа подбирается под ваш уровень — от Beginner до Advanced.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="courses" class="section section-alt">
+      <div class="container">
+        <h2>Наши курсы</h2>
+        <div class="grid">
+          <article class="card">
+            <img src="https://picsum.photos/seed/general/200/200" alt="Иконка курса General English" width="200" height="200">
+            <h3>General English</h3>
+            <p>Общий английский для повседневной жизни и путешествий. 2 занятия в неделю.</p>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/ielts/200/200" alt="Иконка курса подготовки к IELTS" width="200" height="200">
+            <h3>IELTS / TOEFL</h3>
+            <p>Подготовка к международным экзаменам. Разбор стратегий и тренировочные тесты.</p>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/business/200/200" alt="Иконка курса Business English" width="200" height="200">
+            <h3>Business English</h3>
+            <p>Деловая переписка, переговоры, презентации. Для работы в международных компаниях.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="teachers" class="section">
+      <div class="container">
+        <h2>Преподаватели</h2>
+        <div class="grid">
+          <article class="card">
+            <img src="https://picsum.photos/seed/teacher1/200/200" alt="Преподаватель Эмили, носитель английского" width="200" height="200">
+            <h3>Emily, Лондон</h3>
+            <p>Носитель языка, CELTA. 7 лет опыта преподавания онлайн.</p>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/teacher2/200/200" alt="Преподаватель Джеймс, носитель английского" width="200" height="200">
+            <h3>James, Нью-Йорк</h3>
+            <p>Специалист по Business English. Работал с топ-менеджерами IT-компаний.</p>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/teacher3/200/200" alt="Преподаватель Анна, сертифицированный преподаватель" width="200" height="200">
+            <h3>Анна, Алматы</h3>
+            <p>IELTS 8.5. Готовит к экзаменам с гарантией прогресса.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Запишитесь на бесплатный урок</h2>
+        <p class="form-note">Оставьте заявку — мы свяжемся с вами в течение 24 часов и подберём преподавателя.</p>
+        <form action="#" method="post" class="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" required minlength="2" autocomplete="name" placeholder="Ваше имя">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email" placeholder="you@example.com">
+          </div>
+          <div class="field">
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="5" required minlength="10" placeholder="Ваш уровень, цель, удобное время..."></textarea>
+          </div>
+          <button type="submit" class="btn">Отправить заявку</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 SpeakUp — онлайн-школа английского языка. Все права защищены.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
